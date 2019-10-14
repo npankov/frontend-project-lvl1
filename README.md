@@ -4,5 +4,6 @@
 
 [![Build Status](https://travis-ci.com/npankov/frontend-project-lvl1.svg?branch=master)](https://travis-ci.com/npankov/frontend-project-lvl1)
 
-**brain-even**
+###brain-even
+
 [![asciicast](https://asciinema.org/a/tXl61dTwZ7wMo2LdlREsLZZFQ.svg)](https://asciinema.org/a/tXl61dTwZ7wMo2LdlREsLZZFQ)
