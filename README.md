@@ -6,4 +6,8 @@
 
 ### brain-even
 
+###### It's game "Parity Check".
+###### I am showing a random number.
+###### You answer yes, if the number is even or no, if it is odd 
+
 [![asciicast](https://asciinema.org/a/tXl61dTwZ7wMo2LdlREsLZZFQ.svg)](https://asciinema.org/a/tXl61dTwZ7wMo2LdlREsLZZFQ)
