@@ -1,12 +1,13 @@
-import startGame from '../index';
-import { randomNum } from '../index';
-
+import { startGame, randomNum } from '../index';
 
 const discription = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-const generateQuestion = () => randomNum();
-const checkAnswer = (num) => ((num % 2 === 0) ? 'yes' : 'no');
+const generateQuestion = () => {
+  const question = randomNum(1, 99);
+  const correctAnswer = (num) => ((num % 2 === 0) ? 'yes' : 'no');
+  return [question, correctAnswer];
+};
 
-const evenGame = () => startGame(discription, generateQuestion, checkAnswer);
+const evenGame = () => startGame(discription, generateQuestion);
 
 export default evenGame;
