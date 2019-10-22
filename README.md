@@ -4,8 +4,15 @@
 
 [![Build Status](https://travis-ci.com/npankov/frontend-project-lvl1.svg?branch=master)](https://travis-ci.com/npankov/frontend-project-lvl1)
 
-### brain-even
-
+## Brain Even
 ###### It's game "Parity Check". I am showing a random number. You answer yes, if the number is even or no, if it is odd 
-
 [![asciicast](https://asciinema.org/a/tXl61dTwZ7wMo2LdlREsLZZFQ.svg)](https://asciinema.org/a/tXl61dTwZ7wMo2LdlREsLZZFQ)
+
+
+## Brain Calc
+###### It's game "Calculator". I am showing an random expression. You give an answer.
+[![asciicast](https://asciinema.org/a/2hEu7mYkrwUzKFtLUwdv62x8W.svg)](https://asciinema.org/a/2hEu7mYkrwUzKFtLUwdv62x8W)
+
+## Brain GCD
+###### It's game greatest common divisor of given numbers. I am showing two random numbers. You give an answer.
+[![asciicast](https://asciinema.org/a/AzdCTlSGCTHZI3IEgrLxsPSTc.svg)](https://asciinema.org/a/AzdCTlSGCTHZI3IEgrLxsPSTc)
