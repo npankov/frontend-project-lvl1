@@ -10,9 +10,17 @@
 
 
 ## Brain Calc
+<<<<<<< HEAD
 ###### It's game "Calculator". I am showing an random expression. You give an answer.
 [![asciicast](https://asciinema.org/a/2hEu7mYkrwUzKFtLUwdv62x8W.svg)](https://asciinema.org/a/2hEu7mYkrwUzKFtLUwdv62x8W)
 
 ## Brain GCD
 ###### It's game greatest common divisor of given numbers. I am showing two random numbers. You give an answer.
 [![asciicast](https://asciinema.org/a/AzdCTlSGCTHZI3IEgrLxsPSTc.svg)](https://asciinema.org/a/AzdCTlSGCTHZI3IEgrLxsPSTc)
+=======
+###### It's game "Calculator". I am showing an expression. You give an answer.
+[![asciicast](https://asciinema.org/a/2hEu7mYkrwUzKFtLUwdv62x8W.svg)](https://asciinema.org/a/2hEu7mYkrwUzKFtLUwdv62x8W)
+
+
+
+>>>>>>> c8717249d7683a6821b72b41bce3a0f4e6480193

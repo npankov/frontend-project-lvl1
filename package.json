@@ -6,8 +6,12 @@
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
     "brain-even": "dist/bin/brain-even.js",
+<<<<<<< HEAD
     "brain-calc": "dist/bin/brain-calc.js",
     "brain-gcd": "dist/bin/brain-gcd.js"
+=======
+    "brain-calc": "dist/bin/brain-calc.js"
+>>>>>>> c8717249d7683a6821b72b41bce3a0f4e6480193
   },
   "files": [
     "dist"
