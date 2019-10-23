@@ -3,14 +3,13 @@ import { startGame, randomNum } from '../index';
 const discription = 'What number is missing in the progression?';
 
 const generateQuestion = () => {
-
   const numStartProgression = randomNum(1, 99);
   const increaseProgression = randomNum(1, 15);
   const lengthProgression = 10;
   const randomIndex = randomNum(0, lengthProgression);
 
   const getProgression = (firstElem, increase) => {
-    let arr = [];
+    const arr = [];
     for (let i = 0; i < lengthProgression; i += 1) {
       arr[i] = firstElem + increase * i;
     }

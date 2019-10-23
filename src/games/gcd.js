@@ -3,7 +3,6 @@ import { startGame, randomNum } from '../index';
 const discription = 'Find the greatest common divisor of given numbers.';
 
 const generateQuestion = () => {
-
   const numberOne = randomNum(1, 99);
   const numberTwo = randomNum(1, 99);
 

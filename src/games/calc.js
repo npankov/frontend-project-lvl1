@@ -3,7 +3,6 @@ import { startGame, randomNum } from '../index';
 const discription = 'What is the result of the expression?';
 
 const generateQuestion = () => {
-
   const operations = (num1, num2, oper) => {
     switch (oper) {
       case '+':
