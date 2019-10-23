@@ -18,6 +18,9 @@
 [![asciicast](https://asciinema.org/a/AzdCTlSGCTHZI3IEgrLxsPSTc.svg)](https://asciinema.org/a/AzdCTlSGCTHZI3IEgrLxsPSTc)
 
 ## Brain Progression
-###### It's game What number is missing in the progression? I am showing a random progression. You give a missing number.
+###### It's game "Find the missing number". I am showing a random progression. You give a missing number.
 [![asciicast](https://asciinema.org/a/jpm6YMS6AeZYbwyYRNUa9NaTC.svg)](https://asciinema.org/a/jpm6YMS6AeZYbwyYRNUa9NaTC)
 
+## Brain Prime
+###### It's game "Simplicity check". I am showing a random number. You answer yes, if the number is prime or no, if it is composite number. 
+[![asciicast](https://asciinema.org/a/rTJpy6tmTmvJioIHwtsPbCRWp.svg)](https://asciinema.org/a/rTJpy6tmTmvJioIHwtsPbCRWp)

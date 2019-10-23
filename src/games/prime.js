@@ -1,6 +1,6 @@
 import { startGame, randomNum } from '../index';
 
-const discription = 'Answer "yes" if the number is even, otherwise answer "no".';
+const discription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const generateQuestion = () => {
   const isPrime = (num) => {
