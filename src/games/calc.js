@@ -23,7 +23,7 @@ const generateQuestion = () => {
   const numberTwo = randomNum(1, 99);
 
   const question = `${numberOne} ${randOper} ${numberTwo}`;
-  const correctAnswer = () => String(operations(numberOne, numberTwo, randOper));
+  const correctAnswer = String(operations(numberOne, numberTwo, randOper));
   return [question, correctAnswer];
 };
 

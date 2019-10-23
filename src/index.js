@@ -18,13 +18,13 @@ export const startGame = (discription, generateQuestion) => {
     const [question, correctAnswer] = generateQuestion();
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
-    if (correctAnswer(question) === userAnswer) {
+    if (correctAnswer === userAnswer) {
       console.log('Correct!');
       if (countRound === maxRound) {
         return console.log(`Congratulations, ${userName}`);
       }
     } else {
-      return console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer(question)}.\nLet's try again, ${userName}!`);
+      return console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.\nLet's try again, ${userName}!`);
     }
   }
 };

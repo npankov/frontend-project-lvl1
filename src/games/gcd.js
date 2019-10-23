@@ -19,7 +19,7 @@ const generateQuestion = () => {
   };
 
   const question = `${numberOne} ${numberTwo}`;
-  const correctAnswer = () => String(gcd(numberOne, numberTwo));
+  const correctAnswer = String(gcd(numberOne, numberTwo));
   return [question, correctAnswer];
 };
 

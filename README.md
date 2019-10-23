@@ -17,3 +17,7 @@
 ###### It's game greatest common divisor of given numbers. I am showing two random numbers. You give an answer.
 [![asciicast](https://asciinema.org/a/AzdCTlSGCTHZI3IEgrLxsPSTc.svg)](https://asciinema.org/a/AzdCTlSGCTHZI3IEgrLxsPSTc)
 
+## Brain Progression
+###### It's game What number is missing in the progression? I am showing a random progression. You give a missing number.
+[![asciicast](https://asciinema.org/a/jpm6YMS6AeZYbwyYRNUa9NaTC.svg)](https://asciinema.org/a/jpm6YMS6AeZYbwyYRNUa9NaTC)
+

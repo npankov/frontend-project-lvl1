@@ -4,7 +4,7 @@ const discription = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 const generateQuestion = () => {
   const question = randomNum(1, 99);
-  const correctAnswer = (num) => ((num % 2 === 0) ? 'yes' : 'no');
+  const correctAnswer = ((question % 2 === 0) ? 'yes' : 'no');
   return [question, correctAnswer];
 };
 
