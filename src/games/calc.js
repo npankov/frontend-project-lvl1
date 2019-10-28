@@ -7,6 +7,7 @@ const operators = ['+', '-', '*'];
 
 const generateGameData = () => {
   const operations = (num1, num2, oper) => {
+    // eslint-disable-next-line default-case
     switch (oper) {
       case '+':
         return num1 + num2;
@@ -14,7 +15,6 @@ const generateGameData = () => {
         return num1 - num2;
       case '*':
         return num1 * num2;
-      default: brake;
     }
   };
 

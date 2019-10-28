@@ -10,8 +10,10 @@ const generateGameData = () => {
   const gcd = (a, b) => {
     while (a !== b) {
       if (a > b) {
+        // eslint-disable-next-line no-param-reassign
         a -= b;
       } else {
+        // eslint-disable-next-line no-param-reassign
         b -= a;
       }
     }
