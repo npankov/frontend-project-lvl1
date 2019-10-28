@@ -1,8 +1,9 @@
-import { startGame, randomNum } from '../index';
+import startGame from '../index';
+import randomNum from '../utils';
 
 const discription = 'What number is missing in the progression?';
 
-const generateQuestion = () => {
+const generateGameData = () => {
   const numStartProgression = randomNum(1, 99);
   const increaseProgression = randomNum(1, 15);
   const lengthProgression = 10;
@@ -23,6 +24,6 @@ const generateQuestion = () => {
   return [question, correctAnswer];
 };
 
-const brainPregression = () => startGame(discription, generateQuestion);
+const brainPregression = () => startGame(discription, generateGameData);
 
 export default brainPregression;
