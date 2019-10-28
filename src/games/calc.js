@@ -6,6 +6,7 @@ const discription = 'What is the result of the expression?';
 const operators = ['+', '-', '*'];
 
 const generateGameData = () => {
+  // eslint-disable-next-line consistent-return
   const operations = (num1, num2, oper) => {
     // eslint-disable-next-line default-case
     switch (oper) {
