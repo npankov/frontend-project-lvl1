@@ -2,7 +2,7 @@
   "name": "frontend-project-lvl1",
   "version": "1.0.0",
   "description": "frontend project hexlet",
-  "main": "brain-games.js",
+  "main": "index.js",
   "bin": {
     "brain-even": "dist/bin/brain-even.js",
     "brain-calc": "dist/bin/brain-calc.js",
