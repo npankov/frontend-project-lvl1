@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "frontend project hexlet",
   "keywords": ["brain games", "brain-games"],
-  "main": "index.js",
   "bin": {
     "brain-even": "dist/bin/brain-even.js",
     "brain-calc": "dist/bin/brain-calc.js",
