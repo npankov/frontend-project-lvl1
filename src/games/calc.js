@@ -18,11 +18,11 @@ const operations = (num1, num2, oper) => {
   return null;
 };
 
-const generateGameData = () => {
-  const randomOperator = operators[randomNum(0, operators.length)];
-  const randomNumberOne = randomNum(1, 99);
-  const randomNumberTwo = randomNum(1, 99);
+const randomOperator = operators[randomNum(0, operators.length)];
+const randomNumberOne = randomNum(1, 99);
+const randomNumberTwo = randomNum(1, 99);
 
+const generateGameData = () => {
   const question = `${randomNumberOne} ${randomOperator} ${randomNumberTwo}`;
   const correctAnswer = String(operations(randomNumberOne, randomNumberTwo, randomOperator));
   return [question, correctAnswer];
