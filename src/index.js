@@ -17,7 +17,7 @@ const startGame = (discription, generateGameData) => {
     if (correctAnswer === userAnswer) {
       console.log('Correct!');
       if (countRound === maxRound) {
-        return console.log(`Congratulations, ${userName}`);
+        console.log(`Congratulations, ${userName}`);
       }
     } else {
       return console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.\nLet's try again, ${userName}!`);
