@@ -1,10 +1,7 @@
 import startGame from '../index';
 import randomNum from '../utils';
 
-const discription = 'Find the greatest common divisor of given numbers.';
-
-const numberOne = randomNum(1, 99);
-const numberTwo = randomNum(1, 99);
+const description = 'Find the greatest common divisor of given numbers.';
 
 const gcd = (a, b) => {
   let num1 = a;
@@ -20,11 +17,14 @@ const gcd = (a, b) => {
 };
 
 const generateGameData = () => {
-  const question = `${numberOne} ${numberTwo}`;
-  const correctAnswer = String(gcd(numberOne, numberTwo));
+  const firstNumber = randomNum(1, 99);
+  const secondNumber = randomNum(1, 99);
+
+  const question = `${firstNumber} ${secondNumber}`;
+  const correctAnswer = String(gcd(firstNumber, secondNumber));
   return [question, correctAnswer];
 };
 
-const brainGcd = () => startGame(discription, generateGameData);
+const brainGcd = () => startGame(description, generateGameData);
 
 export default brainGcd;

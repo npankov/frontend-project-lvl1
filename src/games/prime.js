@@ -1,13 +1,13 @@
 import startGame from '../index';
 import randomNum from '../utils';
 
-const discription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (num) => {
   if (num <= 1) {
     return false;
   }
-  for (let i = 2; i * i <= num; i += 1) {
+  for (let i = 2; i <= Math.sqrt(num); i += 1) {
     if (num % i === 0) {
       return false;
     }
@@ -21,6 +21,6 @@ const generateGameData = () => {
   return [question, correctAnswer];
 };
 
-const primeGame = () => startGame(discription, generateGameData);
+const primeGame = () => startGame(description, generateGameData);
 
 export default primeGame;

@@ -1,7 +1,7 @@
 import startGame from '../index';
 import randomNum from '../utils';
 
-const discription = 'What is the result of the expression?';
+const description = 'What is the result of the expression?';
 
 const operators = ['+', '-', '*'];
 
@@ -18,16 +18,16 @@ const operations = (num1, num2, oper) => {
   return null;
 };
 
-const randomOperator = operators[randomNum(0, operators.length)];
-const randomNumberOne = randomNum(1, 99);
-const randomNumberTwo = randomNum(1, 99);
-
 const generateGameData = () => {
-  const question = `${randomNumberOne} ${randomOperator} ${randomNumberTwo}`;
-  const correctAnswer = String(operations(randomNumberOne, randomNumberTwo, randomOperator));
+  const randomOperator = operators[randomNum(0, operators.length - 1)];
+  const firstNumber = randomNum(1, 99);
+  const secondNumber = randomNum(1, 99);
+
+  const question = `${firstNumber} ${randomOperator} ${secondNumber}`;
+  const correctAnswer = String(operations(firstNumber, secondNumber, randomOperator));
   return [question, correctAnswer];
 };
 
-const brainCalc = () => startGame(discription, generateGameData);
+const brainCalc = () => startGame(description, generateGameData);
 
 export default brainCalc;
