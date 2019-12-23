@@ -5,19 +5,19 @@ const description = 'What number is missing in the progression?';
 
 const lengthProgression = 10;
 
-const getProgression = (firstElem, increase, length) => {
-  const arr = [];
+const getProgression = (firstElement, increase, length) => {
+  const result = [];
   for (let i = 0; i < length; i += 1) {
-    arr[i] = firstElem + increase * i;
+    result[i] = firstElement + increase * i;
   }
-  return arr;
+  return result;
 };
 
 const generateGameData = () => {
-  const numStartProgression = randomNum(1, 99);
-  const increaseProgression = randomNum(1, 15);
+  const firstElement = randomNum(1, 99);
+  const increase = randomNum(1, 15);
   const randomIndex = randomNum(0, lengthProgression);
-  const progression = getProgression(numStartProgression, increaseProgression, lengthProgression);
+  const progression = getProgression(firstElement, increase, lengthProgression);
 
   const correctAnswer = String(progression[randomIndex]);
   progression[randomIndex] = '..';
