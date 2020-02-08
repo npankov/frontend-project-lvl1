@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.com/npankov/frontend-project-lvl1.svg?branch=master)](https://travis-ci.com/npankov/frontend-project-lvl1)
 
-## For install these games, you need to run the following commands in the terminal
+## For install these games, you need to run following commands in the terminal
 
     git clone https://github.com/npankov/frontend-project-lvl1
     npm install
