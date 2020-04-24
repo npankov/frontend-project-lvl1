@@ -1,15 +1,14 @@
 # Frontend project level 1. These are five console games on the logic
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
-
 [![Build Status](https://travis-ci.com/npankov/frontend-project-lvl1.svg?branch=master)](https://travis-ci.com/npankov/frontend-project-lvl1)
 
 ## For install these games, you need to run following commands in the terminal
 
     git clone https://github.com/npankov/frontend-project-lvl1
-    npm install
+    make install
     make publish
-    sudo npm link
+    make link
 ---
 
 ### It's game "Parity Check". I am showing a random number. You answer yes, if the number is even or no, if it is odd
