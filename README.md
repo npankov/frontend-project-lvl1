@@ -13,7 +13,7 @@
 
 ## Parity Check
 ### About
-I show a random number, you answer yes, if the number is even or no, if it is odd.  
+I show a random number, you answer yes, if the number is even or no, if the  number is odd.  
 To start, enter the **brain-even** command in the terminal.
 
 [![asciicast](https://asciinema.org/a/tXl61dTwZ7wMo2LdlREsLZZFQ.svg)](https://asciinema.org/a/tXl61dTwZ7wMo2LdlREsLZZFQ)
