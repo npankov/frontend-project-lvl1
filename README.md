@@ -3,7 +3,7 @@
 
 # Five console games on the logic
 
-### Installation
+### Install
 
     git clone https://github.com/npankov/frontend-project-lvl1
     make install
